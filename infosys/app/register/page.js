@@ -27,24 +27,24 @@ export default function RegisterPage() {
               onChange={(e) => setName(e.target.value)}
               required
               className="mt-1 w-full rounded-md border border-gray-300 p-2 focus:border-blue-500 focus:outline-none"
-              placeholder="तुमचे नाव"
+              placeholder="Your Name"
             />
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-gray-700">ईमेल पत्ता</label>
+            <label className="block text-sm font-medium text-gray-700">Email Address</label>
             <input
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
               className="mt-1 w-full rounded-md border border-gray-300 p-2 focus:border-blue-500 focus:outline-none"
-              placeholder="tumcha@email.com"
+              placeholder="Your@Email"
             />
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-gray-700">पासवर्ड</label>
+            <label className="block text-sm font-medium text-gray-700">Password</label>
             <input
               type="password"
               value={password}
